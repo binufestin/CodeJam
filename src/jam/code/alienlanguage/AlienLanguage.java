@@ -6,8 +6,8 @@ import java.io.FileReader;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import java.util.TreeMap;
 import java.util.Map.Entry;
+import java.util.TreeMap;
 
 public class AlienLanguage {
 
@@ -16,7 +16,6 @@ public class AlienLanguage {
 		// System.out.println("Start");
 		BufferedReader br = new BufferedReader(new FileReader(new File(
 				"D:/GoogleCodeJam/AlienLanguage/A-large-practice.in")));
-		// "D:/GoogleCodeJam/AlienLanguage/A-small-practice.in")));
 		String[] fl = br.readLine().split(" ");
 		int l = Integer.valueOf(fl[0]);
 		int p = Integer.valueOf(fl[1]);
@@ -68,9 +67,7 @@ public class AlienLanguage {
 					}
 				}
 				if (f)
-					matches
-							.put(entry.getKey(),
-									matches.get(entry.getKey()) + 1);
+					matches.put(entry.getKey(), matches.get(entry.getKey()) + 1);
 			}
 		}
 		for (Entry<Integer, Integer> entry : matches.entrySet())
