@@ -15,7 +15,7 @@ public class AlienLanguage {
 		long st = System.currentTimeMillis();
 		// System.out.println("Start");
 		BufferedReader br = new BufferedReader(new FileReader(new File(
-				"D:/GoogleCodeJam/AlienLanguage/A-large-practice.in"))); // Test
+				"D:/GoogleCodeJam/AlienLanguage/A-large-practice.in"))); // Testrr
 		String[] fl = br.readLine().split(" ");
 		int l = Integer.valueOf(fl[0]);
 		int p = Integer.valueOf(fl[1]);
